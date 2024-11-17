@@ -55,6 +55,12 @@ Program ini merupakan aplikasi sederhana berbasis konsol untuk mencatat data mah
 
 ## Contoh Output
 
+![Output](/code&output/Tampilan.png)
+
+## Catatan:
+- Format tabel disesuaikan agar data lebih mudah dibaca.
+- Nilai akhir ditampilkan dengan dua angka desimal menggunakan format(nilai_akhir, '.2f').
+
 
 
 
