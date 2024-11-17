@@ -1,12 +1,14 @@
-# praktikum4
 
+# Program Input dan Output Data Mahasiswa
+Program ini merupakan aplikasi sederhana berbasis konsol untuk mencatat data mahasiswa dan menampilkan hasilnya dalam bentuk tabel. Setiap mahasiswa memiliki informasi berupa nama, NIM, nilai tugas, nilai UTS, nilai UAS, dan nilai akhir yang dihitung berdasarkan bobot tertentu.
 
+## Flowchart Program
 ```mermaid
 graph TD
     Start((Start))
     InitList[Initialize empty list: data_mahasiswa ]
     InputData[/Input Data Mahasiswa: Nama, NIM, Nilai Tugas, Nilai UTS, Nilai UAS/]
-    CalculateNilai[/Calculate Nilai Akhir: tugas times 0.3 plus uts times 0.35 plus uas times 0.35/]
+    CalculateNilai[Calculate nilai_akhir = tugas x 0.3 + uts x 0.35 + uas x 0.35]
     AddToList[Tambahkan Data ke List]
     Decision{Tambah data lagi?}
     PrintData[/Print output data/]
@@ -22,8 +24,6 @@ graph TD
     PrintData --> End
 ```
 
-# Program Input dan Output Data Mahasiswa
-Program ini merupakan aplikasi sederhana berbasis konsol untuk mencatat data mahasiswa dan menampilkan hasilnya dalam bentuk tabel. Setiap mahasiswa memiliki informasi berupa nama, NIM, nilai tugas, nilai UTS, nilai UAS, dan nilai akhir yang dihitung berdasarkan bobot tertentu.
 
 ### Fitur Utama:
 1. Input Data Mahasiswa:
@@ -57,9 +57,6 @@ Program ini merupakan aplikasi sederhana berbasis konsol untuk mencatat data mah
 
 ![Output](/code&output/Tampilan.png)
 
-## Catatan:
-- Format tabel disesuaikan agar data lebih mudah dibaca.
-- Nilai akhir ditampilkan dengan dua angka desimal menggunakan format(nilai_akhir, '.2f').
 
 
 
