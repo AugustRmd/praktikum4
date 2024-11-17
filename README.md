@@ -53,6 +53,8 @@ Program ini merupakan aplikasi sederhana berbasis konsol untuk mencatat data mah
 5. Tampilan Akhir:
    - Setelah loop selesai, data ditampilkan dalam format tabel menggunakan print dengan lebar kolom yang disesuaikan agar lebih rapi.
 
+## Contoh Output
+
 
 
 
